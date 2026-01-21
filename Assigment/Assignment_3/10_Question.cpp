@@ -5,7 +5,7 @@ int main() {
   cout << "Enter a number: ";
   cin >> a;
   int fact = 1;
-  for (int i = 1; i <= a; ++i) {
+  for (int i = 1; i <= a; i++) {
     fact *= i;
   }
   return 0;
