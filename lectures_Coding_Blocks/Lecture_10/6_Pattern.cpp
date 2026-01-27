@@ -11,15 +11,11 @@ int main(){
     for(int i=1;i<=n;i++){
         // print decreasing numbers
         for(int j=n;j>=i+1;j--){
-            cout<<j<<" ";
-        }
-        // print star
-        cout<<"* ";
-        // print increasing numbers
-        for(int j=i-1;j>=1;j--){
-            cout<<j<<" ";
+            if(j==1){
+                cout<<"* ";
         }
         cout<<endl;
     }
+   }
     return 0;
 }
