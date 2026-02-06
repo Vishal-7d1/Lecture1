@@ -9,7 +9,7 @@ int main(){
         for(int j=1;j<=n-1;j++){
             cout<<"\t";
         }
-        for(int j=1;j<= ;j++){
+        for(int j=1;j<= n;j++){
         if(i==1){
             cout<<i;
         }
