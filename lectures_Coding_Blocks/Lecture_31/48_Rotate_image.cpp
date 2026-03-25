@@ -9,8 +9,7 @@ public:
                 swap(matrix[i][j],matrix[j][i]);
             }
         }
-        // row inverse
-        
+        // row inverse 
         for(int i=0;i<n;i++){
             int j=0,k=m-1;
             while(j<k){
