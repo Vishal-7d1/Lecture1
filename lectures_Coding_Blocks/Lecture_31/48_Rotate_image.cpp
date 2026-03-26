@@ -10,6 +10,7 @@ public:
             }
         }
         // row inverse
+        
         for(int i=0;i<n;i++){
             int j=0,k=m-1;
             while(j<k){
