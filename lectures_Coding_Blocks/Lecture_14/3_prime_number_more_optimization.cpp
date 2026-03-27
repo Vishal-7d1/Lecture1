@@ -20,5 +20,6 @@ int main(){
         cout<<"Not a Prime Number"<<endl;
     }
 
+
     return 0;
 }
